@@ -2,10 +2,15 @@ Requirements
 
 Admin pages:
 
-- Actions that the user can do: Create, Retrieve, Update and Delete. In addition to this, the user should be able to search the entities based on certain fields. Those searchable/indexed fields are higlighted with * below.
+- Actions that the user can do: Create, Retrieve, Update and Delete.
+  In addition to this, the user should be able to search the entities based on certain fields.
+  Those searchable/indexed fields are higlighted with * below.
 - Display the exisitng entities by default - paginated (10 per page; make it customizable, do not hard code)
 - The retrieve/Update/Delete options for an entity will be present next to the entity.
-- The user should be able to do a group action on entities. For now, just allow Delete. Update is complex and varies per entity and the property that is being updated - so we skip it for now.
+- The user should be able to do a group action on entities.
+  Meaning that a user could select a set of entities (Refer to GMail inbox as an example) and perform an operation.
+  For now, just allow Delete.
+  Update is complex and varies per entity and the property that is being updated - so we skip it for now.
 
 
 1. Customers
@@ -14,7 +19,9 @@ Properties:
 - ID* (System generated)
 - Name* (First, middle and Last)
 - Phone numbers*
-- Address (multiple addresses are possible for one patient when they do home delivery. Each address will have a custom name/tag to identify like home, office, etc.. )
+- Address
+  Multiple addresses are possible for one patient when they do home delivery.
+  Each address will have a custom name/tag to identify like home, office, etc..
 
 2. Medicines
 
